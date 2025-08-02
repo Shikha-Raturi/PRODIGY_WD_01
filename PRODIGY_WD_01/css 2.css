@@ -1,0 +1,8 @@
+
+ol {list-style-type:decimal;font-weight:bold} 
+ul font-weight:normal
+ul ul {font-style:italic}
+p,li {font-family: "verdana","arial","helvetica",sans-serif;font-size:13px}
+    .copyright {font-family:"times new roman","times",serif; background-color:green;color:white}
+    .company {font-style: italic; font-weight: 900;color: red}
+    h1, h5 {word-spacing: 2px; letter-spacing: 1.5px;color : red}

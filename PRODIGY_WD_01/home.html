@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJIO</title>
+        <meta name="author" content="shikha">
+        <meta name="description" content="online shopping website">
+        <meta name="keyword" content="shopping,fashion,outfit">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="Icon" type="aj logo" href="aj logo.webp">
+    <style>
+            .column3{
+                float:left;
+                width: 20%;
+                padding: 10px;
+            }
+            .row::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position:relative;
+	animation: 9s slider infinite;
+}
+
+
+#slider figure img {
+	width: 33.333333333%;
+	height :100vh;
+	float: left;
+}
+.footer {
+        background-color: slategray;
+        color: white;
+        padding: 50px;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        color: #171716;
+        cursor: pointer;
+    }    
+    </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg bg-white sticky-top">
+            <div class="container-fluid">
+              <img src="aj logo.webp" alt="ajio logo" style="width:22px;height:fit-content;">
+              <a class="navbar-brand" href="#"> AJIO</a>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="about us.html">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                      <li><a class="dropdown-item" href="footwear.html">Footwear</a></li>
+                      <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                      <li><a class="dropdown-item" href="festive.html">Ethnic and Festive</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="form.html">Log in</a>
+                  </li>
+                </ul>
+                
+              </div>
+              </div>
+            </div>
+          </nav>
+
+
+          <div id="slider">
+            <figure>
+                  <img src="slider 1.gif" alt="ajio sale" usemap="#ajio1"><map name="ajio1">
+                    <area shape="default" href="clothing.html">
+                  </map>
+                  <img src="slider 2.webp" alt="ajio sale" usemap="#ajio2"><map name="ajio2">
+                    <area shape="default" href="footwear.html">
+                  </map>
+                  <img src="slider 3.webp" alt="ajio sale" usemap="#ajio3"><map name="ajio3">
+                    <area shape="default" href="accessories.html">
+                  </map>
+            </figure>
+      </div>
+
+
+      <h1 style="text-align: center;padding: 10px;font-style:italic;color:firebrick;background-color: blanchedalmond;">TOP ON CHARTS</h1>
+      <div class="row" style="margin: 20px;">
+    <div class="col-xs-sm-3 col-md-3">
+      <img src="ajp.png" alt="ajio" usemap="#poster1" style="width: 300px;height:400px;padding: 5px;"><map name="poster1">
+        <area shape="default" href="clothing.html">
+      </map>
+    </div>
+    <div class="col-xs-sm-3 col-md-3">
+      <img src="ajp2.avif" alt="ajio" usemap="#poster2" style="width:300px;height: 400px;padding: 5px;"><map name="poster2">
+        <area shape="default" href="festive.html">
+      </map>
+    </div>
+    <div class="col-xs-sm-3 col-md-3">
+      <img src="ajp3.webp" alt="ajio" usemap="#poster3" style="width:300px;height: 400px;padding: 5px;"><map name="poster3">
+        <area shape="default" href="footwear.html">
+      </map>
+    </div>
+    <div class="col-xs-sm-3 col-md-3">
+      <img src="ajp4.jpg" alt="ajio" usemap="#poster4" style="width:300px;height: 400px;padding: 5px;"><map name="poster4">
+        <area shape="default" href="accessories.html">
+      </map>
+    </div>
+</div>
+
+
+<div id="slider">
+  <figure>
+        <img src="slider 4.jpg" alt="ajio sale" usemap="#ajio4"><map name="ajio4">
+          <area shape="default" href="https://www.ajio.com/s/50-to-90-percent-off-uhp-4814-72981">
+        </map>
+        <img src="slider 5.webp" alt="ajio sale" usemap="#ajio5"><map name="ajio5">
+          <area shape="default" href="https://www.ajio.com/s/noexchnoreturn-5131-70341">
+        </map>
+        <img src="slider 6.jpg" alt="ajio sale" usemap="#ajio6"><map name="ajio6">
+          <area shape="default" href="https://www.ajio.com/s/up-to-30-percent-off-5251-34581">
+        </map>
+  </figure>
+</div>
+
+
+<footer>
+  <div class="footer">
+  <div class="row" style="margin: 15px;">
+  <div class="col-xs-sm-4 col-md-4">
+    <a href="home.html">Home</a><br>
+    <a href="about us.html">About us</a><br>
+    <a href="">Contact</a><br>
+    <a href="">Blog</a>
+  </div>
+  <div class="col-xs-sm-4 col-md-4">
+    <a href="">Facebook</a><br>
+    <a href="">Instagram</a><br>
+    <a href="">Youtube</a><br>
+    <a href="">Twitter</a>
+  </div>
+  <div class="col-xs-sm-4 col-md-4">
+    <a href="">Western wear</a><br>
+    <a href="">Indian wear</a><br>
+    <a href="">Winter wear</a><br>
+    <a href="">Foot wear</a> 
+  </div>
+  <p style="text-align: center;padding-top: 30px;">Copyright &copy; 2020 AJIO.</p>
+  </div>
+  </div>
+  </div>
+</footer>
+</body>
+</html>
